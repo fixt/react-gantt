@@ -47,6 +47,6 @@ idea/
 .idea/
 
 # Application
-/lib
+# /lib
 /demo/dist
 .cache/
