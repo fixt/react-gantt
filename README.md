@@ -114,7 +114,7 @@ class Demo extends Component {
 |---------------|-----------|--------------------|
 | style         | Object    | Customize the calculated appearance of the timeline. In pixels: tickWidth, paddingLeft, minWidth |
 | rows          | Array     | The parent's GanttRows (is this deprecated?) |
-| scalingFactor | Number    | Allows customization of the calculated # of ticks |
+| simpleTickRendering | Boolean    | Simplifies rendering of ticks to just include a number near the max allowed |
 
 #### GanttRow
 

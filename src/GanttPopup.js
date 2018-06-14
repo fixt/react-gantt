@@ -8,7 +8,7 @@ export default class GanttPopup extends Component {
     markerTime: PropTypes.object.isRequired,
     activeStep: PropTypes.object.isRequired,
     title: PropTypes.string.isRequired,
-    titleStyle: PropTypes.string,
+    titleStyle: PropTypes.object,
     renderPopupDetails: PropTypes.func
   };
   static contextTypes = {
