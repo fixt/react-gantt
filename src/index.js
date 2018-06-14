@@ -23,7 +23,7 @@ export default class ReactGantt extends Component {
     timelineStyle: PropTypes.object,
     weekFormat: PropTypes.string,
     yearFormat: PropTypes.string,
-    simpleTickRendering: PropTypes.boolean
+    simpleTickRendering: PropTypes.bool
   };
   static childContextTypes = {
     dateFormat: PropTypes.string.isRequired,

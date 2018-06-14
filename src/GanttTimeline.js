@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 export default class GanttTimeline extends Component {
   static propTypes = {
     style: PropTypes.object.isRequired,
-    simpleTickRendering: PropTypes.boolean
+    simpleTickRendering: PropTypes.bool
   };
 
   static defaultProps = {
